@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient( 293.5deg,  rgba(181,149,208,1) 3.2%, rgba(251,148,207,1) 9.9%, rgba(181,149,208,1) 22.9%, rgba(251,148,207,1) 36.4%, rgba(181,149,208,1) 50.1%, rgba(251,148,207,1) 61.1%, rgba(181,149,208,1) 71.2%, rgba(251,148,207,1) 84.2%, rgba(181,149,208,1) 92.2% );
+    font-family: Electrolize;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quiz-container {
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow:0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+.quiz-header {
+    padding: 2rem;
+}
+h2 {
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+ul li label {
+    cursor: pointer;
+}
+button {
+    background-color: #ecb9ec;
+    border: none;
+    /* color: white; */
+    display: block;
+    font-family: inherit;
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+    cursor: pointer;
+}
+button:hover  {
+    background-color: #ad6cad;
+}
